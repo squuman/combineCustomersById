@@ -1,0 +1,287 @@
+RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":1727,"order":{"slug":1727,"id":1727,"number":"1015-S","externalId":"38613","orderType":"eshop-individual","orderMethod":"one-click","countryIso":"RU","createdAt":"2020-01-21 15:23:48","statusUpdatedAt":"2020-04-09 10:35:27","summ":2884,"totalSumm":2884,"prepaySum":5768,"purchaseSumm":2306.87,"markDatetime":"2020-01-21 15:23:49","firstName":"Игорь","phone":"+79645565654","email":"+79645565654@buy1click.com","call":false,"expired":false,"customerComment":"# №1015-S\n; Контактное лицо:  Игорь ;89645565654;+79645565654@buy1click.com\n Комм. клиента: fast order\n Комм. менеджера: \nТип оплаты: Оплата наличными","managerId":6,"customer":{"type":"customer","id":924,"externalId":"588","isContact":false,"createdAt":"2020-01-21 15:23:48","managerId":6,"vip":false,"bad":false,"site":"santeh-lab-ru","contragent":{"contragentType":"individual"},"tags":[],"marginSumm":577.13,"totalSumm":2884,"averageSumm":2884,"ordersCount":1,"costSumm":2306.87,"customFields":[],"personalDiscount":0,"address":{"id":572,"countryIso":"RU","region":"Москва город","regionId":55,"city":"Москва","cityId":4995,"cityType":"г.","street":"хамоневческий вал","building":"16","text":"хамоневческий вал, д. 16"},"segments":[],"firstName":"Игорь","presumableSex":"male","email":"+79645565654@buy1click.com","emailMarketingUnsubscribedAt":"2020-04-02 14:34:53","phones":[{"number":"+79645565654"}]},"contact":{"type":"customer","id":924,"externalId":"588","isContact":false,"createdAt":"2020-01-21 15:23:48","managerId":6,"vip":false,"bad":false,"site":"santeh-lab-ru","contragent":{"contragentType":"individual"},"tags":[],"marginSumm":577.13,"totalSumm":2884,"averageSumm":2884,"ordersCount":1,"costSumm":2306.87,"customFields":[],"personalDiscount":0,"address":{"id":572,"countryIso":"RU","region":"Москва город","regionId":55,"city":"Москва","cityId":4995,"cityType":"г.","street":"хамоневческий вал","building":"16","text":"хамоневческий вал, д. 16"},"segments":[],"firstName":"Игорь","presumableSex":"male","email":"+79645565654@buy1click.com","emailMarketingUnsubscribedAt":"2020-04-02 14:34:53","phones":[{"number":"+79645565654"}]},"contragent":{"contragentType":"individual"},"delivery":{"code":"self-delivery","cost":0,"netCost":0,"address":{"countryIso":"RU","city":"Москва"}},"site":"santeh-lab-ru","status":"complete","items":[{"markingCodes":[],"id":2790,"initialPrice":2884,"discountTotal":0,"vatRate":"none","createdAt":"2020-01-21 15:23:48","quantity":1,"status":"saled","offer":{"displayName":"Поручень","id":30019,"externalId":"85590","xmlId":"HAR 043","name":"Поручень","article":"HAR 043","vatRate":"0.00","unit":{"code":"pc","name":"Штука","sym":"шт."}},"properties":[],"purchasePrice":2306.87}],"fullPaidAt":"2020-01-23 11:10:47","payments":{"3370":{"id":3370,"status":"paid","type":"bankpay","externalId":"942","amount":2884,"paidAt":"2020-01-21 00:00:00"},"4784":{"id":4784,"status":"paid","type":"bankpayy","externalId":"86ce0097498c11ea9a66509a4c1cfb9e","amount":2884,"paidAt":"2020-01-23 11:10:47"}},"fromApi":true,"weight":1000,"length":200,"width":392,"height":144,"shipmentStore":"skad","shipmentDate":"2020-01-21","shipped":false,"customFields":[]}}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 1727
+            [order] => Array
+                (
+                    [slug] => 1727
+                    [id] => 1727
+                    [number] => 1015-S
+                    [externalId] => 38613
+                    [orderType] => eshop-individual
+                    [orderMethod] => one-click
+                    [countryIso] => RU
+                    [createdAt] => 2020-01-21 15:23:48
+                    [statusUpdatedAt] => 2020-04-09 10:35:27
+                    [summ] => 2884
+                    [totalSumm] => 2884
+                    [prepaySum] => 5768
+                    [purchaseSumm] => 2306.87
+                    [markDatetime] => 2020-01-21 15:23:49
+                    [firstName] => Игорь
+                    [phone] => +79645565654
+                    [email] => +79645565654@buy1click.com
+                    [call] => 
+                    [expired] => 
+                    [customerComment] => # №1015-S
+; Контактное лицо:  Игорь ;89645565654;+79645565654@buy1click.com
+ Комм. клиента: fast order
+ Комм. менеджера: 
+Тип оплаты: Оплата наличными
+                    [managerId] => 6
+                    [customer] => Array
+                        (
+                            [type] => customer
+                            [id] => 924
+                            [externalId] => 588
+                            [isContact] => 
+                            [createdAt] => 2020-01-21 15:23:48
+                            [managerId] => 6
+                            [vip] => 
+                            [bad] => 
+                            [site] => santeh-lab-ru
+                            [contragent] => Array
+                                (
+                                    [contragentType] => individual
+                                )
+
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 577.13
+                            [totalSumm] => 2884
+                            [averageSumm] => 2884
+                            [ordersCount] => 1
+                            [costSumm] => 2306.87
+                            [customFields] => Array
+                                (
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 572
+                                    [countryIso] => RU
+                                    [region] => Москва город
+                                    [regionId] => 55
+                                    [city] => Москва
+                                    [cityId] => 4995
+                                    [cityType] => г.
+                                    [street] => хамоневческий вал
+                                    [building] => 16
+                                    [text] => хамоневческий вал, д. 16
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => Игорь
+                            [presumableSex] => male
+                            [email] => +79645565654@buy1click.com
+                            [emailMarketingUnsubscribedAt] => 2020-04-02 14:34:53
+                            [phones] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [number] => +79645565654
+                                        )
+
+                                )
+
+                        )
+
+                    [contact] => Array
+                        (
+                            [type] => customer
+                            [id] => 924
+                            [externalId] => 588
+                            [isContact] => 
+                            [createdAt] => 2020-01-21 15:23:48
+                            [managerId] => 6
+                            [vip] => 
+                            [bad] => 
+                            [site] => santeh-lab-ru
+                            [contragent] => Array
+                                (
+                                    [contragentType] => individual
+                                )
+
+                            [tags] => Array
+                                (
+                                )
+
+                            [marginSumm] => 577.13
+                            [totalSumm] => 2884
+                            [averageSumm] => 2884
+                            [ordersCount] => 1
+                            [costSumm] => 2306.87
+                            [customFields] => Array
+                                (
+                                )
+
+                            [personalDiscount] => 0
+                            [address] => Array
+                                (
+                                    [id] => 572
+                                    [countryIso] => RU
+                                    [region] => Москва город
+                                    [regionId] => 55
+                                    [city] => Москва
+                                    [cityId] => 4995
+                                    [cityType] => г.
+                                    [street] => хамоневческий вал
+                                    [building] => 16
+                                    [text] => хамоневческий вал, д. 16
+                                )
+
+                            [segments] => Array
+                                (
+                                )
+
+                            [firstName] => Игорь
+                            [presumableSex] => male
+                            [email] => +79645565654@buy1click.com
+                            [emailMarketingUnsubscribedAt] => 2020-04-02 14:34:53
+                            [phones] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [number] => +79645565654
+                                        )
+
+                                )
+
+                        )
+
+                    [contragent] => Array
+                        (
+                            [contragentType] => individual
+                        )
+
+                    [delivery] => Array
+                        (
+                            [code] => self-delivery
+                            [cost] => 0
+                            [netCost] => 0
+                            [address] => Array
+                                (
+                                    [countryIso] => RU
+                                    [city] => Москва
+                                )
+
+                        )
+
+                    [site] => santeh-lab-ru
+                    [status] => complete
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [markingCodes] => Array
+                                        (
+                                        )
+
+                                    [id] => 2790
+                                    [initialPrice] => 2884
+                                    [discountTotal] => 0
+                                    [vatRate] => none
+                                    [createdAt] => 2020-01-21 15:23:48
+                                    [quantity] => 1
+                                    [status] => saled
+                                    [offer] => Array
+                                        (
+                                            [displayName] => Поручень
+                                            [id] => 30019
+                                            [externalId] => 85590
+                                            [xmlId] => HAR 043
+                                            [name] => Поручень
+                                            [article] => HAR 043
+                                            [vatRate] => 0.00
+                                            [unit] => Array
+                                                (
+                                                    [code] => pc
+                                                    [name] => Штука
+                                                    [sym] => шт.
+                                                )
+
+                                        )
+
+                                    [properties] => Array
+                                        (
+                                        )
+
+                                    [purchasePrice] => 2306.87
+                                )
+
+                        )
+
+                    [fullPaidAt] => 2020-01-23 11:10:47
+                    [payments] => Array
+                        (
+                            [3370] => Array
+                                (
+                                    [id] => 3370
+                                    [status] => paid
+                                    [type] => bankpay
+                                    [externalId] => 942
+                                    [amount] => 2884
+                                    [paidAt] => 2020-01-21 00:00:00
+                                )
+
+                            [4784] => Array
+                                (
+                                    [id] => 4784
+                                    [status] => paid
+                                    [type] => bankpayy
+                                    [externalId] => 86ce0097498c11ea9a66509a4c1cfb9e
+                                    [amount] => 2884
+                                    [paidAt] => 2020-01-23 11:10:47
+                                )
+
+                        )
+
+                    [fromApi] => 1
+                    [weight] => 1000
+                    [length] => 200
+                    [width] => 392
+                    [height] => 144
+                    [shipmentStore] => skad
+                    [shipmentDate] => 2020-01-21
+                    [shipped] => 
+                    [customFields] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+)
+RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":1727}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 1727
+        )
+
+)
+RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true,"id":1727}
+    [response:protected] => Array
+        (
+            [success] => 1
+            [id] => 1727
+        )
+
+)

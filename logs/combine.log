@@ -1,0 +1,10 @@
+RetailCrm\Response\ApiResponse Object
+(
+    [statusCode:protected] => 200
+    [rawResponse:protected] => {"success":true}
+    [response:protected] => Array
+        (
+            [success] => 1
+        )
+
+)
